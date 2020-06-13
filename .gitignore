@@ -37,6 +37,8 @@
 # User-specific stuff
 .idea/
 */.idea/
+./build/
+*/build/
 
 # Generated files
 .idea/**/contentModel.xml
