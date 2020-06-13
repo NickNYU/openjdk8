@@ -3,15 +3,17 @@
 #### 介绍
 mac 10.15.14编译openjdk8
 
-#### 软件架构
-软件架构说明
+
+
 
 
 #### 安装教程
+bash configure --with-debug-level=slowdebug  --with-jvm-variants=server --with-target-bits=64 --enable-ccache --with-num-cores=8 --with-memory-size=16384 --with-extra-cxxflags=-Wno-deprecated-register --with-extra-cxxflags=-Wno-nullability-completeness --with-boot-jdk=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+make jdk
+
+
+
 
 #### 使用说明
 
