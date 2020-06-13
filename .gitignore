@@ -37,7 +37,7 @@
 # User-specific stuff
 .idea/
 */.idea/
-./build/
+build/
 */build/
 
 # Generated files
